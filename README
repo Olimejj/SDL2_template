@@ -1,0 +1,5 @@
+Here is a georgeus build command:
+
+"C:\Program Files (x86)\JetBrains\CLion 2023.3.2\bin\mingw\bin\g++.exe" -o your_executable src/main.cpp -I../SDL2/headers -L../SDL2/dlls -lSDL2 -lSDL2main -B"C:\Program Files (x86)\JetBrains\CLion 2023.3.2\bin\mingw\bin" -lSDL2_image -lSDL2_ttf -mconsole
+
+Untill the system path is put right this will hopefully meet all our build needs.
